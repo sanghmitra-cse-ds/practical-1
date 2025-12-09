@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hotel Booking Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #eef3ff;
+        }
+
+        form {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input,
+        select,
+        textarea,
+        button {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            width: 100%;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <h3>Hotel Booking</h3>
+
+        <label>Name</label>
+        <input type="text" placeholder="Your name">
+
+        <label>Check-in</label>
+        <input type="date">
+
+        <label>Check-out</label>
+        <input type="date">
+
+        <label>Room Type</label>
+        <select>
+            <option>Standard</option>
+            <option>Deluxe</option>
+            <option>Suite</option>
+        </select>
+
+        <label>Special Request</label>
+        <textarea placeholder="Write here..."></textarea>
+
+        <button>Book Now</button>
+    </form>
+
+</body>
+
+</html>
